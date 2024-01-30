@@ -47,11 +47,16 @@
     font-family: "Times New Roman";
 }
 
+.home p:hover {
+    color: blue;
+}
+
 .p1{
     position: absolute;
     left: 50%;
     transform: translateY(-50%) translateX(-50%);
     font-size: 20px;
+    cursor: pointer;
 }
 
 .start{

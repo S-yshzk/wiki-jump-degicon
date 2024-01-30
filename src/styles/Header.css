@@ -1,0 +1,14 @@
+ nav a {
+     text-decoration: none;
+     color: aliceblue;
+ }
+
+ nav a:hover {
+     color: rgb(215, 140, 19);
+     font-size: 16;
+     transition: all 0.3s;
+ }
+
+ nav a svg {
+     margin-right: 5px;
+ }

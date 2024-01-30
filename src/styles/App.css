@@ -1,0 +1,36 @@
+main {
+  background-color: antiquewhite;
+  height: 100vh;
+}
+
+
+.jump {
+  position: fixed;
+  bottom: 20vh;
+  right: 10px;
+  padding: 6px 40px;
+}
+
+.loading-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size:x-large;
+  background-color: rgba(43, 69, 243, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.clear{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  text-align: center;
+}

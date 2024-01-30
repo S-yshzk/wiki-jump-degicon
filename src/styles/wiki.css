@@ -1,0 +1,12 @@
+.wikipage{
+    margin: 8px;
+}
+
+.toc{
+    pointer-events: none;
+    text-decoration: none;
+}
+
+.toc a{
+    color: black;
+}

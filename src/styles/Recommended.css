@@ -39,3 +39,22 @@ table {
     font-weight: bold;
   }
   
+  .hilightBotton {
+    border-radius: 2px;
+    padding: 15px 40px;
+    background-color: #FFEB3B; /* ベースの色を黄色に変更 */
+    cursor: pointer;
+    box-shadow: 0 4px #CDDC39; /* ベースの色に合わせた影の色を変更 */
+    border: none;
+    outline: none;
+  }
+  
+
+
+  .noHilightBotton{
+    border-radius: 2px; 
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }

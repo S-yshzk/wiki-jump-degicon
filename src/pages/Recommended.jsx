@@ -20,13 +20,13 @@ const Recommended = ({setGoal, setStart}) => {
     }
     const bottonStyle = {
         position: "absolute",
-        left: "600px",
+        left: "570px",
         top: "80px",
     }
 
     const svgStyle = {
         position: "absolute",
-        left: "400px",
+        left: "900px",
         top: "100px",
         width: "30%",
         height: "15%"
@@ -43,7 +43,7 @@ const Recommended = ({setGoal, setStart}) => {
                         <text textAnchor="middle" dominantBaseline="middle" x={270} y={50}>ゴール:</text>
                         <rect x="300" y="40" width="50" height="20" fill="blue" />
                     </svg>
-                    <button style={bottonStyle}
+                    <button　className={recStart && recGoal ? "hilightBotton" : "noHilightBotton"} style={bottonStyle}
                         onClick={() => {
                             if(recStart && recGoal) {
                                 setStart({"name":recStart, "pageid":""});
@@ -53,7 +53,7 @@ const Recommended = ({setGoal, setStart}) => {
                                 alert("値を指定してください");
                             }
                         }}
-                    >セット</button>
+                    >SET</button>
                 </div>
             </header>
             <main>

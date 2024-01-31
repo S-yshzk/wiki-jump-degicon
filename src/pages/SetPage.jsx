@@ -19,10 +19,8 @@ async function getRandomWikititle(func) {
     const url = "https://ja.wikipedia.org/w/api.php?origin=*&format=json&action=query&list=random&rnlimit=1";
     const res = await fetch(url);
     const json = await res.json();
-    console.log(json.query.random[0].title);
     const randomTitle = json.query.random[0].title;
     func({"name":randomTitle, "id":""});
-
 }
 
 const setPage = ({ start, goal, setStart, setGoal, setList, setTitle, setCount, logList, setLogList }) => {
